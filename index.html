@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Форма заказа</title>
+    <link rel="stylesheet" href="work1.css">
+    
+</head>
+
+<body>
+
+<form>
+
+    <fieldset>
+
+        <legend>Личная информация</legend>
+
+        <label for="first-name">Имя:</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Фамилия:</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required>
+        
+    </fieldset>
+
+    <fieldset>
+
+        <legend>Пол</legend>
+
+        <label>
+            <input type="radio" name="gender" value="male" required> Мужской
+        </label>
+
+        <label>
+            <input type="radio" name="gender" value="female" required> Женский
+        </label>
+
+    </fieldset>
+
+    <fieldset>
+        <legend>Выбор еды</legend>
+
+        <label>
+            <input type="checkbox" name="food" value="pizza"> Пицца
+        </label>
+
+        <label>
+            <input type="checkbox" name="food" value="pasta"> Паста
+        </label>
+
+        <label>
+            <input type="checkbox" name="food" value="rolls"> Роллы
+        </label>
+
+    </fieldset>
+
+    <button type="submit"> Заказать </button>
+
+</form>
+
+</body>
+</html>
